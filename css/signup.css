@@ -1,0 +1,108 @@
+body{
+      background-image: url("../images/signup_background.jpg");
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-attachment: scroll;
+      overflow-x: hidden;
+    }
+   .block{
+          position:relative;
+          width:30%;
+          top:20px;
+          left:35%;
+          border-radius:5px 5px 5px 5px;
+          background-color:black;
+          opacity: 0.8;
+          background-size:auto;
+        }
+   .image{
+         padding:30px;
+         position: relative;
+         top:10px;
+         left:30%;
+   }
+   input:not([type=radio]){
+     border-radius: 5px 5px 5px 5px;
+     padding:3px;
+     width:150px;
+     min-width:10px;
+
+   }
+   .container{
+     color:white;
+      padding: 10px;
+      position:relative;
+      left:7%;
+      right:5%;
+   }
+   .top{
+     position: relative;
+     height: auto;
+     width: 100%;
+   }
+  .label{
+     font-size: 15px;
+     font-weight: bold;
+     padding:5px;
+  }
+  .radio{
+    display:run-in;
+   }
+  button{
+     position:relative;
+     left:25%;
+     background-color:blue;
+     color: white;
+  }
+  h1{
+    color:white;
+    position: relative;
+    top:10px;
+    left:40%;
+    font-size:40px;
+  }
+  .address{
+    height:200px;
+    position:relative;
+    margin-top:100px;
+    margin-right: 0px;
+    width:100%;
+    padding: 20px;
+    margin-top: 5px;
+    background-color:black;
+    color:white;
+  }
+  .label1{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .block1{
+    width: 100px;
+    position: relative;
+    top:10px;
+    font-size: 20px;
+    font-weight: normal;
+    z-index: 1000;
+  }
+  .icons{
+    position:absolute;
+    right:-200px;
+    padding:10px;
+  }
+  .icon{
+    padding: 5px;
+  }
+  .footer{
+    position:absolute;
+    padding:40px;
+  }
+  .message {
+    color:black;
+    font-size: 40px;
+    height: 100px;
+    width:contain;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+  }

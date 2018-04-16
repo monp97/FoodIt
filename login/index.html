@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <style>
+
+  h1{
+      position: absolute;
+      margin-left: 25%;
+      margin-top: 15%;
+    }
+
+   .cover{
+      position: relative;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 5%;
+   }
+  .cover img:hover{
+    transition: all 300ms ease-in-out;
+    filter: blur(3px);
+    transform: scale(1.03);
+
+  }
+ .text{
+		color: white;
+    font-family: 'Lobster';
+    font-size: 30px;
+		background: rgba(0,0,0,0.89);
+		width: 155px;
+		height: 135px;
+		padding: 50px 15px 0 15px;
+		opacity: 0;
+		position:absolute;
+		bottom: 0px;
+    width:100%;
+    height:460px;
+		transition: all 300ms ease-in-out;
+ }
+ .text:hover {
+
+     opacity: 100;
+	}
+  </style>
+  <meta charset="UTF-8">
+  <title>Flat UI Login</title>
+
+
+      <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <div id="wrap">
+  <div id="regbar">
+    <div id="navthing">
+      <h2><a href="../login.php" id="loginform">Login</a> | <a href="../signup.html">Register</a></h2>
+    </div>
+  </div>
+</div>
+  <div class="cover">
+      <img src="../images/cover_pic.jpeg" width="100%" height="500px"></img>
+      <span class="text" >
+        <h1><center>Welcome To FOODIT</center></h1>
+      </span>
+  </div>
+</body>
+</html>

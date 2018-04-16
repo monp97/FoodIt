@@ -1,0 +1,64 @@
+<html>
+<head>
+  <style>
+  body{
+    background-image: url("images/comingsoon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .tag
+  {
+     font-size: 70px;
+     margin-top:10%;
+     margin-left:30%;
+     font-family: monospace;
+     font-weight: bold;
+  }
+  #demo{
+    text-align: center;
+    color: grey;
+    font-size: 40px;
+    position: relative;
+    margin-top:10px;
+    font-weight: bold;
+  }
+  .guide{
+    font-size: 60px;
+    position: relative;
+    margin-top:10%;
+    margin-left:25%;
+    font-family: monospace;
+    font-weight: bold;
+  }
+  </style>
+</head>
+<body onload="set1()">
+  <script>
+  var count_data=new Date("Jan 10, 2019 15:37:25");
+  function set1()
+  {
+     setInterval(get1,1000);
+  }
+  function get1()
+  {
+    var time_now=new Date().getTime();
+    var distance=count_data-time_now;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+   document.getElementById("demo").innerHTML = days + "d  " + hours + "h  "
+    + minutes + "m  " + seconds + "s ";
+
+  //  if (distance < 0) {
+  //       clearInterval(countdownfunction);
+  //       document.getElementById("demo").innerHTML = "EXPIRED";
+  //   }
+  }
+  </script>
+  <p class="tag">COMING SOON</p>
+  <p class="guide">your cooking guide</p>
+  <p id="demo"></p>
+</body>
+</html>

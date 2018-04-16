@@ -1,0 +1,49 @@
+body{
+      background-image: url("images/signup_background.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+.card{
+       position:relative;
+       top:20%;
+       left:30%;
+       width:25%;
+       max-width: 200px;
+       margin:5px;
+       display:inline-block;
+      }
+.card:hover
+        {
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+         }
+.container{
+            background-color: #ccc;
+            background-size: cover;
+            padding: 5px;
+            border-radius: 0px 0px 5px 5px;
+          }
+ img{
+       border-radius:5px 5px 0 0;
+       height:200px;
+       max-width:200px;
+     }
+button{
+  position:relative;
+  top:20px;
+  left:40%;
+  border-radius:5px 5px 5px 5px;
+  height:40px;
+  background-color:blue;
+  color:white;
+}
+button:hover{
+  opacity:0.8;
+  color:black;
+}
+h1{
+  color:white;
+  position: relative;
+  top:10px;
+  left:40%;
+  font-size:40px;
+}
